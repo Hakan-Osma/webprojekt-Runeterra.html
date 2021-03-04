@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" cotent="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="mein.css"> 
+    <title>Runeterra</title>
+  </head>
+
+  <body>
+
+   
+
+	
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <ul id=logo>   
+        <img id="img" src="Legends_of_Runeterra_logo.png" alt="Italian Trulli" width="220px" height="120px">
+		  
+		 <script> document.getElementById("img").addEventListener("mouseover", changeimage);
+			 document.getElementById("img").addEventListener("mouseleave", changeimage2);
+			 
+			 function changeimage(){
+				 var image = document.getElementById("img").src = "Faust.png";
+			 }
+			 
+			 function changeimage2(){
+				 var image = document.getElementById("img").src = "Legends_of_Runeterra_logo.png";
+			 } 
+		  
+		  </script>
+		  
+      </ul>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class=Navbartop>
+
+              <a class="nav-link" href="#">Neuigkeiten <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="Navbartop2">
+              <a class="nav-link" href="#">Spieler-Support</a>
+            </li>
+
+
+            <li class="Navbartop3">
+              <a class="nav-link" href="#">Saisonale Turniere</a>
+            </li>
+
+
+             
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+   
+      <div class="Headline">
+        <h1 style="font-size:60px;">Legends of Runeterra</h1>
+      </div>
+
+     
+    
+      <div class="Navigation">
+        <h4 class="font-italic">Übersicht</h4>
+        
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tricks und Tipps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Styling für Sie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">E-Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entdecke</a>
+          </li>
+        </ul>
+      </div>
+      
+
+    <main role="main" class="container">
+        <div class="row">
+          <div class="col-md-8 blog-main">
+            <h3 class="pb-4 mb-4 font-italic border-bottom">
+           
+            </h3>
+      
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">Werde eine Legende</h2>
+                <ul>
+                    <li>Beweise dich in dynamischen Kämpfen voller strategischer Möglichkeiten. Plane deine Züge, aber bleibe dabei flexibel – dein Gegner wird es dir nicht leicht machen. Wird deine Strategie aufgehen, wenn es darauf ankommt?</li>
+                   
+                  </ul>
+            
+					
+					<img src="Barriere.png" alt="Italian Trulli" width="387px" height="550px">
+				<br><br/>			
+					<img src="Doktor.png" alt="Italian Trulli" width="387px" height="550px">
+				<br><br/>
+					
+                  </ul>
+                    <img src="Spielbrett.jpg" alt="Italian Trulli" width="590px" height="450px">
+				<br><br/>
+               
+                    <img src="poro.png" alt="Italian Trulli" width="387px" height="550px">
+
+
+
+
+                </div>
+        
+             
+            </div>
+        
+            <aside class="col-md-4 blog-sidebar">
+              <div class="p-4 mb-3 bg-light rounded">
+                
+        
+        
+              <div class="p-5">
+                <h4 class="font-italic">Social Media</h4>
+                <ol class="list-unstyled">
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li>
+            
+
+                </ol>
+              </div>
+
+
+
+             
+
+
+
+
+
+
+                </aside>
+        
+            </div>
+          
+          </main>
+          
+  
+  
+          <footer class="footer">
+            
+            <p>
+              Max Mustermann
+  Friseurhandwerksmeister
+            </p>
+  
+            <p>Fashionhead - Styling & Hairdesign
+              Muster Strasse 129
+              40213 Düsseldorf</p>
+  
+  
+            <p> E-Mail: webmaster@fashionhead.de
+              </p>
+  
+              <img src="../Carol/bilder/instagram.jpg" class="rounded-circle" alt="Cinque Terre" width="60px" height="50px">
+              <img src="../Carol/bilder/Twitter Logo.jpg" class="rounded-circle" alt="Cinque Terre" width="60px" height="40px">
+              <img src="../Carol/bilder/Facebook Logo.jpg" class="rounded-circle" alt="Cinque Terre" width="60px" height="40px">
+  
+  
+          </footer>
+  
+    
+      
+  
+      
+    </body>
+  </html>
